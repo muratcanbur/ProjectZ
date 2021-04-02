@@ -2,25 +2,16 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/authFragment">
 
     <fragment
-        android:id="@+id/FirstFragment"
-        android:name="co.icanteach.apps.android.projectz.FirstFragment"
-        tools:layout="@layout/fragment_first">
+        android:id="@+id/authFragment"
+        android:name="co.icanteach.apps.android.projectz.auth.AuthFragment"
+        tools:layout="@layout/fragment_auth" />
 
-        <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
-    </fragment>
     <fragment
-        android:id="@+id/SecondFragment"
-        android:name="co.icanteach.apps.android.projectz.SecondFragment"
-        tools:layout="@layout/fragment_second">
-
-        <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
-    </fragment>
+        android:id="@+id/homeFragment"
+        android:name="co.icanteach.apps.android.projectz.home.HomeFragment"
+        tools:layout="@layout/fragment_home" />
 </navigation>
