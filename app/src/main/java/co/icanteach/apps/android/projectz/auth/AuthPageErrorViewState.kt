@@ -4,7 +4,7 @@ import android.content.Context
 import co.icanteach.apps.android.projectz.R
 import java.lang.Exception
 
-class AuthPageErrorViewState(private val exception: Exception) {
+class AuthPageErrorViewState( val exception: Exception) {
 
     fun getEmailErrorMessage(context: Context): String {
         return if (exception is InvalidEmailException) {

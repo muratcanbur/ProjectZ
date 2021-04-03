@@ -8,6 +8,7 @@ import android.view.Menu
 import android.view.MenuItem
 import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
