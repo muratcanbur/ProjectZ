@@ -1,1 +1,0 @@
-package co.icanteach.apps.android.projectz.auth
