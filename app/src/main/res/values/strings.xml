@@ -1,10 +1,12 @@
 <resources>
     <string name="app_name">ProjectZ</string>
 
-    <string name="projectz_hint_username">Username</string>
+    <string name="projectz_hint_email">Email</string>
     <string name="projectz_hint_password">Password</string>
     <string name="projectz_button_login">LOGIN</string>
 
     <string name="invalid_email_error_message">Invalid Email.</string>
     <string name="invalid_password_error_message">Password must contain at least 8 and at least one number character.</string>
+
+    <string name="auth_success_result_message">Welcome to the ProjectZ!</string>
 </resources>
