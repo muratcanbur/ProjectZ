@@ -6,7 +6,7 @@
     <string name="projectz_button_login">LOGIN</string>
 
     <string name="invalid_email_error_message">Invalid Email.</string>
-    <string name="invalid_password_error_message">Password must contain at least 8 and at least one number character.</string>
+    <string name="invalid_password_error_message">Password must contain at least eight characters, one letter and one number</string>
 
     <string name="auth_success_result_message">Welcome to the ProjectZ!</string>
 </resources>

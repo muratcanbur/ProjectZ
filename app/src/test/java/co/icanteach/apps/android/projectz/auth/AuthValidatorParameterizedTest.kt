@@ -67,7 +67,14 @@ class AuthPasswordValidatorParameterizedTest constructor(
                 arrayOf("Projectz9", true),
                 arrayOf("Projectz", false),
                 arrayOf("Projectz987", true),
-                arrayOf("Project987", true)
+                arrayOf("Project987", true),
+                arrayOf("a1", false),
+                arrayOf("a123", false),
+                arrayOf("9projectz", true),
+                arrayOf("12345678", false),
+                arrayOf("12345678p", true),
+                arrayOf("1234567p", true),
+                arrayOf("project8", true)
             )
         }
     }

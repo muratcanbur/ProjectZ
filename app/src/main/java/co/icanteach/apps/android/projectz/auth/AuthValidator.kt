@@ -11,8 +11,8 @@ class AuthValidator @Inject constructor() {
     }
 
     fun isValidPassword(password: String): Boolean {
-        // Password should contain at least one number
-        val exp = ".*[0-9].*"
+        // Minimum eight characters, at least one letter and one number:
+        val exp = "^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{8,}\$"
         val pattern = Pattern.compile(exp, Pattern.CASE_INSENSITIVE)
         val matcher = pattern.matcher(password)
         return matcher.matches()
